@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+/* Author: Craig Erskine Description: Dynamic Menu System - Vertical */ 
+#conteudo .produtos .menu {
+	width:215px;
+	float:left;
+	margin-right:10px;
+}
+
+#conteudo .produtos .menu .tit {
+	width:205px;
+	font-size:18px;
+	color:#FFF;
+	text-transform:uppercase;
+	background:#00a550;
+	line-height:32px;
+	margin:10px 0px 0px 0px;
+	padding:0px 0px 0px 10px;
+}
+
+#conteudo .produtos .menu .tit_procurar {
+	width:205px;
+	font-size:16px;
+	color:#FFF;
+	text-transform:uppercase;
+	background:#00a550;
+	line-height:16px;
+	margin:10px 0px 0px 0px;
+	padding:10px 0px 10px 10px;
+}
+#conteudo .produtos .menu .busca {
+	width:195px;
+	padding:10px;
+	background:#f9f9f9;
+}
+#conteudo .produtos .menu .busca p {
+	font-size:14px;
+	color:#363636;
+	padding:0px;
+	margin:0px 0px 5px 0px;
+}
+#conteudo .produtos .menu .busca .busca {
+	width:185px;
+	height:25px;
+	border:none;
+	padding:0px 5px 0px 5px;
+	background:#FFF;
+	box-shadow:0px 0px 5px #EAEAEA;
+	font-size:12px;
+	color:#b4b4b4;
+}
+#conteudo .produtos .menu .busca .btn_pequeno {
+	float:right;
+	margin:5px 0px 0px 0px;
+}
+
+ul#navmenu-v,ul#navmenu-v li,ul#navmenu-v ul { 
+	width: 215px; 
+	/* Menu Width */ 
+	margin: 0; list-style: none; 
+	padding: 0px;
+} 
+ul#navmenu-v li { 
+	float: left; 
+	position: relative; 
+	width: 100%; 
+	background:#f9f9f9;
+} 
+ul#navmenu-v li.iehover { 
+	z-index: 1000; 
+	/* IE z-index bugfix */ 
+} 
+ul#navmenu-v ul { 
+	display: none; 
+	position: absolute; 
+	top: 0; 
+	left: 100%; 
+	z-index: 9999; 
+} 
+/* Root Menu */ 
+ul#navmenu-v a { 
+	/*border-top: 1px solid #FFF; 
+	border-right: 1px solid #FFF;*/
+	padding: 7px 10px 7px 10px; 
+	display: block; 
+	color: #666; 
+	text-decoration: none;
+	text-transform:uppercase;
+	height: 1%; 
+	
+	color: #717171 !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
+    margin: 0 0 0px !important;
+} 
+/* Root Menu Hover Persistence */ 
+ul#navmenu-v a:hover,ul#navmenu-v li:hover a,ul#navmenu-v li.iehover a { 
+	background: #eeeeee;  
+} 
+/* 2nd Menu */ 
+ul#navmenu-v li:hover li a,ul#navmenu-v li.iehover li a { 
+	float: none; 
+	background: #f9f9f9; 
+} 
+/* 2nd Menu Hover Persistence */ 
+ul#navmenu-v li:hover li a:hover,ul#navmenu-v li:hover li:hover a,ul#navmenu-v li.iehover li a:hover,ul#navmenu-v li.iehover li.iehover a { 
+	background: #eeeeee; 
+}
+/* Hover Function - Do Not Move */ 
+ul#navmenu-v li:hover ul ul,ul#navmenu-v li:hover ul ul ul,ul#navmenu-v li.iehover ul ul,ul#navmenu-v li.iehover ul ul ul { 
+	display: none; 
+} 
+ul#navmenu-v li:hover ul,ul#navmenu-v ul li:hover ul,ul#navmenu-v ul ul li:hover ul,ul#navmenu-v li.iehover ul,ul#navmenu-v ul li.iehover ul,ul#navmenu-v ul ul li.iehover ul { 
+	display: block; 
+}

@@ -1,0 +1,39 @@
+.listagem {
+	border-left: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #d9d8c1;
+}
+
+.listagem th {
+	font-weight: normal;
+	background-color: #ebeadb;
+	border-bottom: 2px solid #cbc7b8;
+	border-right: 1px solid #d9d8c1;
+	text-align: left;
+	padding: 3px 5px 3px 5px;
+	color: #000000;
+}
+.listagem td {
+	padding: 3px 5px 3px 5px;
+	border-right: 1px solid #e1e1e1;
+}
+.ls {
+	background-color: #F2F2F2;
+}
+.ln {
+	background-color: #FFFFFF;
+}
+.lp {
+	background-color: #FFFF00;
+}
+
+.opcoes {
+	padding: 0px 3px 0px 3px !important;
+}
+.opcoes img {
+	margin-bottom: -4px !important;
+}
+.ordenar {
+	background-color: #faf8f3 !important;
+	border-bottom: 2px solid #f9b119 !important;
+}

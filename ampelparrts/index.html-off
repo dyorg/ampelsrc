@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ampel Parts</title>
+
+	<link href='css/style.css' rel='stylesheet' />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<div id="topo">
+	<div class="conteudo">
+    	<div class="logo"></div>
+    	<div class="menu_idioma">
+        	<a href="#"><img src="images/bandeira_arabe.jpg" width="21" height="14" alt="" title="Árabe" /></a>
+            <a href="#"><img src="images/bandeira_frances.jpg" width="21" height="14" alt="" title="Francês" /></a>
+            <a href="#"><img src="images/bandeira_espanhol.jpg" width="21" height="14" alt="" title="Espanhol" /></a>
+            <a href="#"><img src="images/bandeira_ingles.jpg" width="21" height="14" alt="" title="Inglês" /></a>
+            <a href="#"><img src="images/bandeira_brasil.jpg" width="21" height="14" alt="" title="Brasileiro" /></a>
+            <p>Idioma:</p>
+        </div>
+        <br /><br />
+    	<div class="menu">
+        	<p>Contato</p>
+        	<p>Localização</p>
+        	<p>Produtos</p>
+        	<p>Serviços</p>
+        	<p>Quem Somos</p>
+        </div>
+    </div>
+</div>
+<hr id="hr_banner" />
+<div id="banner">
+<hr id="hr_banner" />
+</div>
+<div id="conteudo">
+    <div class="index">
+        <div class="nosso_negocio">
+        	<p class="titulo">Nosso Negócio</p>
+            <img src="images/mapa.png" width="284" height="147" alt="" />
+            <p class="texto">A ampel Parts exporta peças de reposição automotiva para qualquer lugar do mundo.A ampel Parts exporta peças de reposição automotiva para qualquer lugar do mundo. A ampel Parts exporta peças de reposição automotiva para qualquer lugar do mundo.A ampel Parts exporta peças de reposição automotiva para qualquer lugar do mundo.<br /><br />Nosso foco é principalmente em peças para <span>caminhões</span>, <span>ônibus</span> e <span>tratores</span>.</p>
+            <br />
+            <input type="button" name="saiba_mais" id="saiba_mais" class="btn_pequeno" value="Saiba Mais" />
+            <hr class="hr_botao" />
+        </div>
+        <br style="clear:both" /><br style="clear:both" /><br style="clear:both" />
+        <div class="marcas marcass">
+            <div class="coluna onibus">
+            	<img src="images/marcas/onibus.png" width="170" height="93" alt="" />
+                <div class="logos">
+                    <img src="images/marcas/marcopolo.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/comil.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/mascarello.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/neobus.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/caio.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/busscar.jpg" width="170" height="40" alt="" />
+                </div>
+            </div>
+            <div class="coluna caminhao">
+            	<img src="images/marcas/caminhao.png" width="170" height="93" alt="" />
+                <div class="logos">
+                    <img src="images/marcas/ford.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/scania.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/volkswagen.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/volvo.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/mercedez.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/agrale.jpg" width="170" height="40" alt="" />
+                </div>
+            </div>
+            <div class="coluna lona">
+            	<img src="images/marcas/lona.png" width="170" height="93" alt="" />
+                <div class="logos">
+                    <img src="images/marcas/randon.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/guerra.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/noma.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/facchini.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/rodolinea.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/ubrelato.jpg" width="170" height="40" alt="" />
+                </div>
+            </div>
+            <div class="coluna tratores_azul">
+            	<img src="images/marcas/tratores_azul.png" width="170" height="93" alt="" />
+                <div class="logos">
+                    <img src="images/marcas/ford_tratores.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/newholland_agriculture.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/valtra.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/massey_ferguson.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/john_deere.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/agrale.jpg" width="170" height="40" alt="" />
+                </div>
+            </div>
+            <div class="coluna tratores_amarelo">
+            	<img src="images/marcas/tratores_amarelo.jpg" width="170" height="93" alt="" />
+                <div class="logos">
+                    <img src="images/marcas/caterpillar.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/volvo.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/fiatallis.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/newholland_construction.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/komatsu.jpg" width="170" height="40" alt="" />
+                    <img src="images/marcas/case_construction.jpg" width="170" height="40" alt="" />
+                </div>
+            </div>
+            <br style="clear:both" />
+        </div>
+    </div>
+</div>
+<br style="clear:both" />
+<div id="rodape">
+    <div class="conteudo_rdp">
+        <div class="ampel">
+        	<p class="titulo">Ampel Parts</p>
+            <a href=""><p>Quem Somos</p></a>
+			<a href=""><p>Serviços</p></a>
+			<a href=""><p>Produtos</p></a>
+			<a href=""><p>Marcas</p></a>
+			<a href=""><p>Loja Virtual</p></a>
+        </div>
+        <div class="localizacao">
+        	<p class="titulo">Localização</p>
+            <p>Av. Vereador Toaldo Túlio - nº 4069 - BR 02<br/>São Braz - CEP: 82300 - 332<br />Curitiba - PR - Brasil</p>
+           	<div class="btn_mapa">
+            	<img src="images/icone_mapa.png" width="16" height="27" alt="" /><a href="#"><p>VER NO MAPA</p></a>
+            </div>
+        </div>
+        <div class="atendimento">
+        	<p class="titulo">Atendimento</p>
+            <p><span>FONE:</span> 55 41. 3372 - 0828</p>
+			<p><span>FAX:</span> 55 41. 3372 - 5528</p>
+			<p><span>E-MAIL:</span> vendas@ampelparts.com</p>
+            <div class="btn_form">
+            	<a href=""><img src="images/icone_form.png" width="22" height="24" alt="" /><p>FORMULÁRIO DE CONTATO</p></a>
+            </div>
+        </div>
+        <div class="newsletter">
+        	<p class="titulo">Newsletter</p>
+            <p>Assine e receba todas as novidades da Ampel Parts diretamente no seu<br />e-mail!</p>
+            <form>
+            	<input type="text" name="nome" id="nome" class="nome" placeholder="Nome" />
+                <input type="email" name="email" id="email" class="email" placeholder="E-mail" />
+                <input type="button" name="cadastrar" id="cadsatrar" class="btn_pequeno" value="cadastrar" />
+            </form>
+        </div>
+        <br style="clear:both" />
+        <hr />
+        <div class="linha_rdp">
+            <img src="images/logo_ampel_rdp.png" width="42" height="38" alt="" /><p>Ampel Parts - Peças para reposição automotiva. © 2013 - Todos os direitos reservados.</p>
+            <div class="selo_signo"></div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

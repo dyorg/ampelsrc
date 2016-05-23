@@ -1,0 +1,225 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Servidor: localhost
+-- Tempo de Geração: Jul 05, 2013 as 05:23 
+-- Versão do Servidor: 5.1.37
+-- Versão do PHP: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Banco de Dados: `ampel`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `avisame`
+--
+
+CREATE TABLE IF NOT EXISTS `avisame` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_produto` text NOT NULL,
+  `nome` text NOT NULL,
+  `email` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+
+--
+-- Extraindo dados da tabela `avisame`
+--
+
+INSERT INTO `avisame` (`id`, `id_produto`, `nome`, `email`) VALUES
+(1, 'a', 'a', 'a'),
+(16, '15', 'joel', 'joel@onda.com.br');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `banners`
+--
+
+CREATE TABLE IF NOT EXISTS `banners` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `foto_g` text NOT NULL,
+  `link` text NOT NULL,
+  `tipo` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=41 ;
+
+--
+-- Extraindo dados da tabela `banners`
+--
+
+INSERT INTO `banners` (`id`, `foto_g`, `link`, `tipo`) VALUES
+(15, 'agrale.jpg', '', 'clientes'),
+(16, 'volvo_logo.gif', '', 'clientes'),
+(14, 'gmc.jpg', '', 'clientes'),
+(13, 'pai_industrie.gif', '', 'clientes'),
+(17, 'iveco_logo.jpg', '', 'clientes'),
+(18, '751_logo_fiat.jpg', '', 'clientes'),
+(19, 'INTERNATIONAL_logo.jpg', '', 'clientes'),
+(20, 'Meritor_logo.jpg', '', 'clientes'),
+(21, 'vw_logo.jpg', '', 'clientes'),
+(22, 'logo_ford.jpg', '', 'clientes'),
+(23, 'logo_marcopolo.jpg', '', 'clientes'),
+(28, 'Sachs.jpg', '', 'produtos'),
+(27, 'busscar.gif', '', 'produtos'),
+(29, 'logo_knorr.gif', '', 'produtos'),
+(30, 'frasle.gif', '', 'produtos'),
+(31, 'dana.jpg', '', 'produtos'),
+(33, 'firestone.png', '', 'produtos'),
+(34, 'monroe.jpg', '', 'produtos'),
+(35, 'varga.jpg', '', 'produtos'),
+(36, 'luk.jpg', '', 'produtos'),
+(37, 'ZF_Logo.gif', '', 'produtos'),
+(38, 'valeo.jpg', '', 'produtos'),
+(39, 'siemens.jpg', '', 'produtos'),
+(40, 'bosch.jpg', '', 'produtos');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `conteudo`
+--
+
+CREATE TABLE IF NOT EXISTS `conteudo` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `texto` text NOT NULL,
+  `categoria` text NOT NULL,
+  `lingua` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=46 ;
+
+--
+-- Extraindo dados da tabela `conteudo`
+--
+
+INSERT INTO `conteudo` (`id`, `texto`, `categoria`, `lingua`) VALUES
+(37, '<iframe width="750" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Vereador+Toaldo+T%C3%BAlio+-+4069+-+BR+02+S%C3%A3o+Braz+CEP:82300-000+-+Curitiba-+Pr-+Brasil&amp;sll=-14.179186,-50.449219&amp;sspn=109.112,203.730469&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Vereador+Toaldo+T%C3%BAlio,+4069+-+S%C3%A3o+Braz,+Curitiba+-+Paran%C3%A1,+82300-000&amp;ll=-25.415447,-49.347839&amp;spn=0.03101,0.064373&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=Av.+Vereador+Toaldo+T%C3%BAlio+-+4069+-+BR+02+S%C3%A3o+Braz+CEP:82300-000+-+Curitiba-+Pr-+Brasil&amp;sll=-14.179186,-50.449219&amp;sspn=109.112,203.730469&amp;ie=UTF8&amp;hq=&amp;hnear=Av.+Vereador+Toaldo+T%C3%BAlio,+4069+-+S%C3%A3o+Braz,+Curitiba+-+Paran%C3%A1,+82300-000&amp;ll=-25.415447,-49.347839&amp;spn=0.03101,0.064373&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>', 'localizacao', ''),
+(29, '<P><FONT color=#000000 size=2 face=Verdana>O Brasil sempre foi reconhecido mundialmente como um país de belezas naturais e pela exuberância de seu carnaval.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>É conhecido, também, por seu forte parque industrial, tendo grande parte das montadoras internacionais instalado suas fábricas (plantas industriais) em nosso país. Junto a elas as principais fornecedoras de auto peças também instalaram suas fábricas de peças originais (OEM), para o mercado de reposição (aftermarket), com a qualidade exigida e preços super competitivos.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>A Ampel Parts está localizada na região metropolitana de Curitiba, ao lado das principais plantas industriais destas montadoras e seus fornecedores, esta apta a fornecer as peças de reposição a custos competitivos e negociação flexível.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Em qualquer parte do mundo que sua empresa esteja localizada, a Ampel Parts pode suprir suas necessidades de peças com a confiança, segurança e agilidade necessária.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Para tanto, nós da Ampel Parts, contamos com equipe comercial e administrativa com know-how que permite muito mais que oferecer produtos a sua empresa. Nossa empresa oferece soluções, com atendimento personalizado e pesquisa dos novos produtos que surgem no mercado, sempre visando os interesses de seus clientes, com agilidade e rapidez nas remessas de suas encomendas.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana><BR>Cadastre sua empresa através de nosso web site e desfrute dos nossos serviços e atendimento.<BR></FONT></P>\r\n<P><FONT size=2 face=Verdana></FONT></P>', 'empresa', 'portugues'),
+(40, '<FONT size=2 face=Verdana>\r\n<P><FONT color=#000000 size=2 face=Verdana>The Ampel Parts is located in the metropolitan region of Curitiba, beside the main manufacturing plants of these manufacturers and their suppliers, is able to provide spare parts at competitive prices and flexible trading.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Anywhere in the world that your company is located, the Ampel Parts can meet your needs for parts with confidence, security and agility.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>To this end, we at Ampel Parts, we have staff with commercial and administrative know-how that allows for much more to offer products to your company. We offer solutions with personalized service and research of new products appearing on the market, always seeking the interests of their clients with agility and speed in the delivery of their orders.</FONT></P></FONT>', 'servicos', 'portugues'),
+(42, '<P><FONT size=2 face=Verdana>Brazil has always been recognized worldwide as a country of natural beauty and the exuberance of its carnival.</FONT></P>\r\n<P><FONT size=2 face=Verdana>It is known also by its strong industrial park, with much of the auto companies set up their factories (industrial plants) in our country. Next to them the major supplier of auto parts also set up their factory original parts (OEM) for the replacement market (aftermarket) with the required quality and super competitive prices.</FONT></P>\r\n<P><FONT size=2 face=Verdana>The Ampel Parts is located in the metropolitan region of Curitiba, beside the main manufacturing plants of these manufacturers and their suppliers, is able to provide spare parts at competitive prices and flexible trading.</FONT></P>\r\n<P><FONT size=2 face=Verdana>Anywhere in the world that your company is located, the Ampel Parts can meet your needs for parts with confidence, security and agility.</FONT></P>\r\n<P><FONT size=2 face=Verdana>To this end, we at Ampel Parts, we have staff with commercial and administrative know-how that allows for much more to offer products to your company. We offer solutions with personalized service and research of new products appearing on the market, always seeking the interests of their clients with agility and speed in the delivery of their orders.</FONT></P>', 'empresa', 'ingles'),
+(43, '<FONT size=2 face=Verdana>\r\n<P><FONT color=#000000 size=2 face=Verdana>The Ampel Parts is located in the metropolitan region of Curitiba, beside the main manufacturing plants of these manufacturers and their suppliers, is able to provide spare parts at competitive prices and flexible trading.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Anywhere in the world that your company is located, the Ampel Parts can meet your needs for parts with confidence, security and agility.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>To this end, we at Ampel Parts, we have staff with commercial and administrative know-how that allows for much more to offer products to your company. We offer solutions with personalized service and research of new products appearing on the market, always seeking the interests of their clients with agility and speed in the delivery of their orders.</FONT></P></FONT>', 'servicos', 'ingles'),
+(44, '<P><FONT color=#000000 size=2 face=Verdana>Brasil siempre ha sido reconocido mundialmente como un país de belleza natural y la exuberancia de su carnaval.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Es conocido también por su parque industrial fuerte, con gran parte de las compañías automovilísticas establecer sus fábricas (plantas industriales) en nuestro país. Junto a ellos, el principal proveedor de autopartes también estableció su fábrica de piezas originales (OEM) para el mercado de reposición (de reposición), con la calidad requerida y precios super competitivos.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Las partes Ampel se encuentra en la región metropolitana de Curitiba, al lado de las plantas de fabricación principal de estos fabricantes y sus proveedores, es capaz de proporcionar piezas de repuesto a precios competitivos y flexibles de negociación.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>En cualquier parte del mundo que se encuentra su empresa, las partes Ampel pueden satisfacer sus necesidades de piezas con confianza, seguridad y agilidad.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Con este fin, nosotros en Ampel Parts, contamos con personal comercial y administrativo, con conocimientos que permite mucho más que ofrecer productos a su empresa. Ofrecemos soluciones con un servicio personalizado y la investigación de nuevos productos aparecen en el mercado, buscando siempre los intereses de sus clientes con agilidad y rapidez en la entrega de sus pedidos.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana></FONT></P>\r\n<P><FONT size=2 face=Verdana></FONT></P>', 'empresa', 'espanhol'),
+(45, '<FONT size=2 face=Verdana><FONT color=#000000 size=2 face=Verdana>\r\n<P><FONT color=#000000 size=2 face=Verdana>Las partes Ampel se encuentra en la región metropolitana de Curitiba, al lado de las plantas de fabricación principal de estos fabricantes y sus proveedores, es capaz de proporcionar piezas de repuesto a precios competitivos y flexibles de negociación.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>En cualquier parte del mundo que se encuentra su empresa, las partes Ampel pueden satisfacer sus necesidades de piezas con confianza, seguridad y agilidad.</FONT></P>\r\n<P><FONT color=#000000 size=2 face=Verdana>Con este fin, nosotros en Ampel Parts, contamos con personal comercial y administrativo, con conocimientos que permite mucho más que ofrecer productos a su empresa. Ofrecemos soluciones con un servicio personalizado y la investigación de nuevos productos aparecen en el mercado, buscando siempre los intereses de sus clientes con agilidad y rapidez en la entrega de sus pedidos.</FONT></P></FONT></FONT>', 'servicos', 'espanhol');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `mec_buscas`
+--
+
+CREATE TABLE IF NOT EXISTS `mec_buscas` (
+  `id` int(11) NOT NULL DEFAULT '0',
+  `mec_buscas_descricao` text NOT NULL,
+  `mec_buscas_palavras_chaves` text NOT NULL,
+  `mec_buscas_url` text NOT NULL,
+  `rodape` text NOT NULL,
+  `titulo` text NOT NULL,
+  `telefones` text NOT NULL,
+  `msn` text NOT NULL,
+  `site` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `mec_buscas`
+--
+
+INSERT INTO `mec_buscas` (`id`, `mec_buscas_descricao`, `mec_buscas_palavras_chaves`, `mec_buscas_url`, `rodape`, `titulo`, `telefones`, `msn`, `site`) VALUES
+(0, 'A Ampel Parts está localizada na região metropolitana de Curitiba, ao lado das principais plantas industriais destas montadoras e seus fornecedores, esta apta a fornecer as peças de reposição a custos competitivos e negociação flexível.', ' FAROL - TRAVEGO NEW COMBINED\r\nLENTE DO FAROL HEAD LAMP LANCE MARCOPOLO', 'contato@ampelparts.com', 'Endereço: Av. Vereador Toaldo Túlio - 4069 - BR 02 São Braz CEP:82300-000 - Curitiba- Pr- Brasil\r\n', 'Ampel Parts - Comércio Exterior Ltda.', 'Fone: [41] 3372-9878\r\n<br>\r\nFax: [41] 3372-9878', 'contato@ampelparts.com', 'http://www.ampelparts.com');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `menu_produtos`
+--
+
+CREATE TABLE IF NOT EXISTS `menu_produtos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `categoria` text NOT NULL,
+  `subcategoria` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=179 ;
+
+--
+-- Extraindo dados da tabela `menu_produtos`
+--
+
+INSERT INTO `menu_produtos` (`id`, `categoria`, `subcategoria`) VALUES
+(178, 'BUSSCAR', '');
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `news`
+--
+
+CREATE TABLE IF NOT EXISTS `news` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` text NOT NULL,
+  `email` text NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=29 ;
+
+--
+-- Extraindo dados da tabela `news`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `produtos`
+--
+
+CREATE TABLE IF NOT EXISTS `produtos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `titulo` text NOT NULL,
+  `data` date NOT NULL DEFAULT '0000-00-00',
+  `foto1` varchar(100) NOT NULL DEFAULT '',
+  `foto2` varchar(100) NOT NULL DEFAULT '',
+  `foto3` varchar(100) NOT NULL DEFAULT '',
+  `foto4` varchar(100) NOT NULL DEFAULT '',
+  `texto` text NOT NULL,
+  `detalhes` text NOT NULL,
+  `nivel` text NOT NULL,
+  `categoria` text NOT NULL,
+  `subcategoria` text NOT NULL,
+  `outrascategorias` text NOT NULL,
+  `valor_maior` double NOT NULL DEFAULT '0',
+  `valor_menor` double NOT NULL DEFAULT '0',
+  `visitas` text NOT NULL,
+  `peso` double NOT NULL DEFAULT '0',
+  `disponivel` text NOT NULL,
+  `quantidade` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3642 ;
+
+--
+-- Extraindo dados da tabela `produtos`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `usuario`
+--
+
+CREATE TABLE IF NOT EXISTS `usuario` (
+  `id` varchar(10) NOT NULL DEFAULT '',
+  `nome` varchar(30) NOT NULL DEFAULT '',
+  `senha` varchar(30) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Extraindo dados da tabela `usuario`
+--
+
+INSERT INTO `usuario` (`id`, `nome`, `senha`) VALUES
+('1', 'admin', '1234');

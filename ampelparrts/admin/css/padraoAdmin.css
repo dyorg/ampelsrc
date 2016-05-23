@@ -1,0 +1,129 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+body, table, select, input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #555555;
+}
+
+input, select, textarea {
+	margin: auto;
+	padding: auto;
+	_margin: 0px;
+	_padding: 0px;
+	height: 20px;
+}
+.descricao {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #515151;
+	padding: 5px;
+	color: #FFFFFF;
+	height: 25px;
+}
+#menu ul {
+	margin: 0px;
+	float: left;
+	list-style: none;
+}
+#menu ul li {
+	display: inline;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+#menu ul li a {
+	color: #333333;
+	text-decoration: none;
+	padding:5px 7px 5px 7px;
+	float: left;
+	height: 21px;
+	margin-right: 5px;
+	border-bottom: 2px solid #f0cd00;
+}
+#menu ul li a:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border-bottom: 1px solid #DADADA;
+	margin-bottom: 5px;
+}
+.conteudo {
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+fieldset, .borda {
+	border: 1px solid #DADADA;
+	padding: 7px;
+	margin-bottom: 5px;
+}
+.tituloCaixa {
+	font-size: 11px;
+	padding: 2px 5px 2px 5px;
+	background-color: #faf8f3;
+	border: 1px solid #DADADA;
+	border-bottom: 1px solid #cbc7b8;
+	color: #000000;
+}
+hr {
+	border: 1px solid #DADADA;
+	height: 1px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.imagem td {
+	height: 85px;
+	border: 1px solid #F2F2F2;
+	text-align: center;
+	width: 1%;
+}
+.loading {
+	background-color: #FFF;
+	margin-bottom: 20px;
+	/* COLOCAR FUNDO COM EFEITO DE LOADING */
+}
+.loading td {
+	background-color: #dc0000;
+	padding: 5px 10px 5px 7px;
+	color: #FFF;
+}
+.loading a {
+	color: #FFF;
+}
+.loading a:hover {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+.percentual {
+	background-image: url(../images/icones/percentual.gif);
+	background-repeat: repeat-y;
+	border: 1px solid #000000;
+}
+.percentual tr td {
+border: none;
+	padding: 0px 5px 0px 5px;
+	margin: 0px;
+	color: #000000;
+}
+
+
+#titulo_sistema {
+	background-color:#FFF;
+	border: 1px solid #DADADA;
+	margin: 10px;
+	padding: 10px;
+	font-size:24px;
+	color:#333;
+	vertical-align:middle;
+}
+
+#titulo_sistema img {
+	vertical-align:middle;
+}

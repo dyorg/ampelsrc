@@ -1,0 +1,212 @@
+a.button{
+	background:url(../images/buttons/button2.gif);
+	display:block;
+/*	color:#555555; */
+	color:#ffffff; 
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+/*	margin-bottom:14px;*/
+	text-decoration:none;
+	width:191px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;	
+}
+a:hover.button{
+	color:#555555;
+	background:url(../images/buttons/button.gif);	
+}
+
+a.button2{
+	background:url(../images/buttons/button3.gif);
+	display:block;
+/*	color:#555555; */
+	color:#ffffff; 
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+/*	margin-bottom:14px;*/
+	text-decoration:none;
+	width:191px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 
+	font-size:11px;	
+}
+a:hover.button2{
+	color:#555555;
+	background:url(../images/buttons/button.gif);	
+}
+
+a.button_med{
+	background:url(../images/buttons/button2_med.gif);
+	display:block;
+/*	color:#555555; */
+	color:#ffffff; 
+	font-weight:bold;
+	height:24px;
+	line-height:23px;
+/*	margin-bottom:14px;*/
+	text-decoration:none;
+	width:150px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 
+	font-size:10px;	
+}
+a:hover.button_med{
+	color:#555555;
+	background:url(../images/buttons/button_med.gif);	
+}
+
+a.button_peq{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 	
+	background:url(../images/buttons/button_peq2.gif);
+	display:block;
+	color:#ffffff;
+	font-weight:bold;
+	height:16px;
+	line-height:15px;
+	margin-bottom:2px;
+	margin-top:2px;	
+	text-decoration:none;
+	width:100px;
+	font-size:10px;
+}
+a:hover.button_peq{
+	color:#555555;
+	background:url(../images/buttons/button_peq.gif);		
+}
+/* -------------------- */
+/* CLASSES				*/
+/* -------------------- */
+.btn_add{
+	background:url(../images/buttons/add.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_delete{
+	background:url(../images/buttons/delete.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_user{
+	background:url(../images/buttons/user.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_alert{
+	background:url(../images/buttons/alert.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_msg{
+	background:url(../images/buttons/msg.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_download{
+	background:url(../images/buttons/download.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+
+.btn_lens{
+	background:url(../images/buttons/lens.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_info{
+	background:url(../images/buttons/info.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+
+.btn_save{
+	background:url(../images/buttons/save.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_chave{
+	background:url(../images/buttons/chave.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_upload{
+	background:url(../images/buttons/upload.png) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_print{
+	background:url(../images/buttons/print.png) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.btn_add_peq{
+	background:url(../images/buttons/add_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_delete_peq{
+	background:url(../images/buttons/remove_peq.png) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_user_peq{
+	background:url(../images/buttons/user_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_alert_peq{
+	background:url(../images/buttons/alert_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_msg_peq{
+	background:url(../images/buttons/msg_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_download_peq{
+	background:url(../images/buttons/download_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+
+.btn_lens_peq{
+	background:url(../images/buttons/lens_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_info_peq{
+	background:url(../images/buttons/info_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}	
+.btn_edit_peq{
+	background:url(../images/buttons/edit_peq.png) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_chave_peq{
+	background:url(../images/buttons/chave_peq.gif) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_niveis_peq{
+	background:url(../images/buttons/levels_peq.png) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_image_peq{
+	background:url(../images/buttons/image_peq.png) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+.btn_print_peq{
+	background:url(../images/buttons/print_peq.png) no-repeat 5px 3px;
+	text-indent:20px;
+	display:block;
+}
+
+.btn_info_med{
+	background:url(../images/buttons/info.png) no-repeat 7px 5px;
+	text-indent:30px;
+	display:block;
+}

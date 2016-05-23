@@ -1,0 +1,45 @@
+form {
+	padding: 0px;
+	margin: 0px;
+} 
+.botaoCadastro  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	color: #FFFFFF; /* Cor Texto */ 
+	background-color: #245edc; /* Cor Background */ 
+	border-top-color: #0050ff; /* Cor Borda Clara */
+	border-left-color: #0050ff; /* Cor Borda Clara */
+	border-bottom-color: #002b88; /* Cor Borda Escura */
+	border-right-color: #002b88; /* Cor Borda Escura */
+}
+.botao {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	border-width: 1px;
+	border-style: solid;
+	color: #FFFFFF; /* Cor Texto */ 
+	background-color: #515151; /* Cor Background */ 
+	border-top-color: #CCCCCC; /* Cor Borda Clara */
+	border-left-color: #CCCCCC; /* Cor Borda Clara */
+	border-bottom-color: #000000; /* Cor Borda Escura */
+	border-right-color: #000000; /* Cor Borda Escura */
+}
+
+/*
+.formulario th, .formularioSimples th  {
+	text-align: right;
+	font-weight: normal;
+}
+.formulario th {
+	width: 80px;
+}
+span {
+	height: 20px;
+	padding-top: 3px;
+	vertical-align: bottom;
+}
+*/

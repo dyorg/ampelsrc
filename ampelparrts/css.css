@@ -1,0 +1,230 @@
+.imput10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #f2f2f2;
+	border: 1px solid #999999;
+	color: #666666;
+}
+
+.negrito12 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+}
+.verdana10 {
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+.negrito10 {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+}.tabelaverdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: bold;
+	font-style: normal;
+	color: #666666;
+	background-image: url(fundocinza.jpg);
+
+
+}
+.verdana14 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color: #999999;
+}
+.verdana12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+}
+
+a:link {
+	color: #333333;
+	text-decoration: none
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: #cccccc;
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+	color: #333333;
+}
+
+
+
+.botao10 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #696B14;
+	border: 1px solid #666666;
+	color: #FFFFFF;
+	width: 100px;
+
+}
+.negrito10branco {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	color: #FFFFFF;
+
+}
+
+/*  __________________________inicio link rodape ______________________________-- */	
+ a.link_rodape:link 
+ 	{
+	color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+	text-decoration: none;
+	padding: 2px;
+	
+	}
+
+a.link_rodape:visited 	
+	{
+	color: #FFFFFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;	
+	text-decoration: none;	
+	padding: 2px;
+	
+	}	
+
+a.link_rodape:hover
+	{
+	color: #FFCC00;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 2px;
+
+	}
+	
+	
+	
+	
+
+ 
+.body       /*  barra de rolagen -- */
+	{
+	background-color: #fafafa;
+	background-position: center top;
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+	scrollbar-face-color:#ffffff;
+	scrollbar-base-color:#CCCCCC;
+	scrollbar-shadow-color:#666666;
+	scrollbar-highlight-color:#FFFFFF;
+	scrollbar-arrow-color: #cccccc;
+	scrollbar-darkshadow-color:#CCCCCC;
+	scrollbar-track-color:#ffffff;
+	scrollbar-3dlight-color:#CCCCCC;
+	margin: 0px;
+	width: 100%;
+	background-image: url(fundox.png);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+
+
+
+
+
+
+	}
+	
+	.tabela_externa_100pct_ou_770px
+	{
+	border: 1px solid #DBDBDB;
+	width: 80%;}
+	
+	.bordas_tabelas_linhas_pontilhadas
+	{
+	border: 1px dashed #D8D8D8;
+
+
+	}
+	
+	
+.botaosemfundo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #FFFFFF;
+	color: #000000;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+
+
+}
+.menu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	color: 3D743A;
+	font-weight: bold;
+
+
+}
+.bordas {
+
+	border: 1px solid #f2f2f2;
+}
+
+.formularios_ggg_250px
+	{
+	background-color: f8f8f8;
+	text-align: left;
+	width: 250px;
+	heigt: 15px;
+	text-decoration: none;
+	text-transform: none;
+	font-size: 10px;
+	font-weight: normal;
+	font-family: Verdana, Sans-Serif;
+	color: #000000;
+	border: 1px solid cccccc;
+
+
+
+
+	}
+.botao5 {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #696B14;
+	border: 1px solid #666666;
+	color: #FFFFFF;
+	width: 30px;
+}
+.imput-busca {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	background-color: #ffffff;
+	border: 1px solid #999999;
+	color: #666666;
+	width: 135px;
+	height: 22px;
+	line-height: 22px;
+
+}
